@@ -167,7 +167,10 @@ button{
 }
 
 input:focus{
-  background-color: lightcyan;
+  background-color: aliceblue;
   box-shadow: 2px 2px lightgray;
 }
 
+input:hover{
+  background-color: aliceblue;
+}
