@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--
+    Link Poppins Font
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <div class="background">
+      <!--Background image by Paul Green on splash.com-->
+      <div class="logo">
+        <!--Logo by pngwing.com-->
+        <img src="./images/logo.png" alt="logo" class="flower">
+        <h1 id="brandName">Ray Flowers</h1>
+        <img src="./images/logo.png" alt="logo" class="flower flipped">
+      </div>
+    </div>
+    <div class="signup">
+      <div class="text">
+        <p>This is not a real online service! Sunflower background image is by Paul Green on splash.com and the flower logo png is from pngwing.com</p>
+        <p>Sign up <em>now</em> to get started</p>
+      </div>
+      <p class="form title">Sign up:</p>
+      <form action="#" class="form">
+        <div class="container">
+          <div class="input left">
+            <label for="firstName">first name</label>
+            <input type="text" name="firstName" id="firstName" required>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" required minlength="8" required>
+          </div>
+          <div class="input right">
+            <label for="lastName">last name</label>
+            <input type="text" name="lastName" id="lastName" required>
+            <label for="phoneNumber">phone number</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" minlength="10">
+            <label for="confirmPassword">password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required minlength="8">
+          </div>
+        </div>
+        <div class="button">          <button class="button-68" type="submit">Create Account</button>
+        </div>
+      </form>
+      <div class="logIn">
+        <p>Already have an account? <span>Log in</span></p>
+      </div>
+    </div>
+  </div>
+<script src="myScript.js"></script>
+</body>
+</html>

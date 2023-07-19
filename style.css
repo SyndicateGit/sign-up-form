@@ -1,0 +1,171 @@
+
+:root{
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+/*Container for website background (left) and signup(right)*/
+.content,
+.logo{
+  display: flex;
+
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Contains logo, title, background image and credit for background image.*/
+.background{
+  /*Sunflower background*/
+  background-image: url(./images/backgroundByPaulGreenOnUnsplash.jpg);
+  /*By Paul Green on splash*/
+  background-size: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*Container size relative to screen*/
+  width: 40vw;
+  height: 100vh;
+}
+
+/*Contains logo and brand name*/
+.logo{
+  background-color: rgba(255,250, 205, 0.3);
+  color: white;
+
+  position: relative;
+  top: 28vh;
+
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+/*Logo*/
+.flower{
+  height: 75px;
+}
+
+/*Right logo flipped*/
+.flower.flipped{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/*Contains text, form, and loggin*/
+.signup{
+  width: 60vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+/*Contains text above form*/
+.text{
+  box-sizing: border-box;
+}
+
+.container{
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+label{
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+span{
+  color: #ff726f;
+  cursor: pointer;
+}
+
+span:hover{
+  color: red;
+}
+
+button{
+  cursor: pointer;
+  
+}
+
+.logIn{
+  font-size: 0.80rem;
+}
+
+/* CSS */
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+input:focus{
+  background-color: lightcyan;
+  box-shadow: 2px 2px lightgray;
+}
+
