@@ -68,11 +68,13 @@ body{
   flex-flow: column;
   justify-content: center;
   padding-left: 3rem;
+
 }
 
 /*Contains text above form*/
 .text{
   box-sizing: border-box;
+  max-width: 80%;
 }
 
 .container{
